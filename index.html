@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Janidu Shehan's Portfolio</title>
     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 </head>
@@ -13,8 +16,6 @@
     <header class="header" id="header">
         <div class="nav__name">Janidu Shehan</div>
 
-
-            
         <!-- Navigation Menu for Desktop -->
         <nav class="nav__menu-desktop">
             <ul class="nav__list">
@@ -25,7 +26,6 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
-    
     </header>
     
     
@@ -38,43 +38,29 @@
         <section class="home section" id="home" data-id="home">
             <div class="home__container container grid">
                 <div class="home__content grid">
-                    <div class="home__social">
-                        <a href="https://www.linkedin.com/in/janidu-shehan-0a9076200?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BbNlo%2BpvkT2uYwaKYyNKErA%3D%3D" target="_blank" class="home__social-icon">
-                            <i class="uil uil-linkedin-alt"></i>
-                        </a>
-                        <a href="https://web.facebook.com/janidu.shehan/" target="_blank" class="home__social-icon">
-                            <i class="uil uil-facebook-f"></i>
-                        </a>
-                        <a href="https://github.com/Janidu-Shehan" target="_blank" class="home__social-icon">
-                            <i class="uil uil-github-alt"></i>
-                        </a>
-                    </div>
-
-                    <div class="home__img">
-                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <mask id="mask0" mask-type="alpha">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            </mask>
-                            <g mask="url(#mask0)">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                <image class="home__blob-img" x="-10%" y="-10%" width="130%" height="130%" xlink:href="Janidu.png"/>
-                            </g>
-                        </svg>
-                    </div>
-                    
-
                     <div class="home__data">
-                        <h1 class="home__title">Hi, I am Janidu Shehan</h1>
+                        <h1 class="home__title">Hi, I'm Janidu Shehan</h1>
                         <h3 class="home__subtitle">Mechatronics Engineering Undergraduate</h3>
-                        <p class="home__description">I'm Janidu Shehan, a passionate and enthusiastic mechatronic engineering student at the University of Moratuwa. I have a strong interest in exploring the intersection of mechanical, electrical, and software engineering to create innovative solutions.</p>
+                        <p class="home__description">I'm a passionate and enthusiastic mechatronic engineering student at the University of Moratuwa. I explore the intersection of mechanical, electrical, and software engineering to create innovative solutions.</p>
                         <a href="#contact" class="button button--flex">
                             Contact Me <i class="uil uil-message button__icon"></i>
                         </a>
+                        
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/janidu-shehan-0a9076200?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BbNlo%2BpvkT2uYwaKYyNKErA%3D%3D" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://web.facebook.com/janidu.shehan/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-facebook-f"></i>
+                            </a>
+                            <a href="https://github.com/Janidu-Shehan" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="home__img">
+                        <img class="home__profile-img" src="Janidu.png" alt="Janidu Shehan">
                     </div>
                 </div>
 
@@ -91,37 +77,35 @@
         <!--==================== ABOUT ====================-->
         <section class="about section" id="about">
             <div class="about__container container grid">
-                <div class="about__data">
-                    <h2 class="about__title">About Me</h2>
-                    <p class="about__description">
-                    I am a third-year Mechanical Engineering undergraduate specializing in Mechatronics Engineering at the <a href="https://uom.lk/" class="link">University of Moratuwa</a>. Currently, I am in my 6th semester. I have a strong interest in Machine Learning, Robotics, Autonomous applications, and working with Microcontrollers.<br>
-                        
-                    I am currently working as a Research Assistant at the <a href="https://nus.edu.sg/" class="link">National University of Singapore</a>, where I contribute to cutting-edge research in building a guided dog robot for blind person.<br>  
-
-Additionally, I am serving as the Pillar Head of Corporate Development for the <a href="https://www.moraspirit.com/" class="link">Moraspirit initiative</a>, where I volunteer for live media broadcasting of university sports. I am also a committee member of the <a href="https://edu.ieee.org/lk-uomras/" class="link">IEEE Robotics and Automation Society</a> at the University of Moratuwa and a member of the <a href="https://morahiking.com/" class="link">Mora Hiking Club</a>.
-
-I have previously worked as a Banking Intern at <a href="https://www.combank.lk/" class="link">Commercial Bank</a>. <br>  
-During my free time, I enjoy playing badminton and cricket, as well as building small robotics projects.
-
-                    </p>
-                    <a href="https://drive.google.com/file/d/1sBrC96pf0AJhEsWZCk4Ky5JmNVgJFZHC/view?usp=drive_link" class="download-btn" download>Download CV
-                    <i class="uil uil-download-alt"></i></a>
-
-                </div>
-
                 <div class="about__img">
                     <img src="self.jpg" alt="Profile Picture">
                 </div>
-                
-             
-                   
-              
+                <div class="about__data">
+                    <h2 class="about__title">About Me</h2>
+<p class="about__description">
+I am a fourth-year Mechanical Engineering undergraduate specializing in Mechatronics Engineering at the 
+<a href="https://uom.lk/" class="link">University of Moratuwa</a>. I am currently in my 8th semester and have a strong interest in Machine Learning, Robotics, autonomous systems, and microcontroller-based applications.<br><br>
+    
+I previously worked as a Research Assistant at the 
+<a href="https://nus.edu.sg/" class="link">National University of Singapore</a>, where I contributed to cutting-edge research on the development of a guided robotic dog for visually impaired individuals.<br><br>  
 
+In addition, I currently serve as the Chief Operations Officer of 
+<a href="https://falconeracing.lk/" class="link">Team Falcon E Racing</a>, where I apply mechanical engineering principles to real-world motorsport applications. I also previously served as the Chief Corporate Officer, gaining valuable experience in corporate operations and leadership. Furthermore, I am an active member of the 
+<a href="https://www.moraspirit.com/" class="link">IEEE Robotics and Automation Society</a> at the University of Moratuwa, as well as the 
+<a href="https://morahiking.com/" class="link">Mora Hiking Club</a>.<br><br>
 
+I have also completed an internship at 
+<a href="https://www.combank.lk/" class="link">Commercial Bank</a>, where I gained exposure to professional and organizational practices in the banking sector.<br><br>
+
+In my free time, I enjoy playing badminton and cricket, as well as working on small robotics and automation projects.
+</p>
+
+<a href="https://drive.google.com/file/d/1AfuHLkhXb1hMK69la9mtIvUap5GwYzg3/view?usp=sharing" class="download-btn">
+    Download CV <i class="uil uil-download-alt"></i>
+</a>
+                </div>
             </div>
-        </section>
-
-<!--==================== Project ====================-->
+        </section><!--==================== Project ====================-->
 <section class="project section" id="projects">
     <div class="projects-container">
       <h2>Robotics & Mechanical Engineering Projects</h2>
@@ -152,7 +136,7 @@ During my free time, I enjoy playing badminton and cricket, as well as building 
             <img src="smart aquarium.jpg" alt="Smart Aquarium">
           </div>
           <h4>Smart Aquarium</h4>
-          <p>Designed a Smart Aquarium system ensuring a healthier environment for aquatic life with minimal maintenance.</p>
+          <p>Designed a Smart Aquarium system ensuring a healthier environment for aquatic life with minimal maintenance by integrating Iot.</p>
           <a href="https://drive.google.com/your_link" target="_blank" class="see-more-btn">See More</a>
         </div>
   
@@ -161,7 +145,7 @@ During my free time, I enjoy playing badminton and cricket, as well as building 
             <img src="plant.jpg" alt="Plant Disease Detection System">
           </div>
           <h4>Plant Disease Detection System</h4>
-          <p>This system uses image processing to identify plant diseases from leaf images.</p>
+          <p>This system uses image processing to identify plant diseases from leaf images and inform farmers remedies for those.</p>
           <a href="https://drive.google.com/file/d/1yKgUcIMYJjT_TtgQOnW6aX3XB7PwKkC-/view?usp=drive_link" target="_blank" class="see-more-btn">See More</a>
         </div>
         
@@ -181,8 +165,8 @@ During my free time, I enjoy playing badminton and cricket, as well as building 
                 <img src="download.webp" alt="Snake Robot">
             </div>
             <h4>Snake Robot</h4>
-            <p>The Snake Robot is a bio-inspired robotic system designed for enhanced maneuverability in confined spaces, with applications in search and rescue of victims.</p>
-            <a href="https://docs.google.com/presentation/d/1zApFgDBgnyAVA0bX57vwp-z-V3wXVsdU/edit?usp=drive_link&ouid=116233717061136752529&rtpof=true&sd=true" target="_blank" class="see-more-btn">See More</a>
+            <p>The Snake Robot is a bio-inspired robotic system designed for enhanced maneuverability in confined spaces, with applications in search and rescue of victims in collapsed building environments.</p>
+            <a href="https://drive.google.com/drive/folders/112mvcP2iasCFU_wZ6E-MYtew_8sSMf0C?usp=drive_link" target="_blank" class="see-more-btn">See More</a>
         </div>
         
 
@@ -202,6 +186,51 @@ During my free time, I enjoy playing badminton and cricket, as well as building 
             <h4>Guided Belt for Blind Person</h4>
             <p>Designed and proposed a wearable guided belt equipped with sensors to assist blind individuals in navigating safely from one location to another by providing haptic feedback.</p>
             <a href="https://drive.google.com/file/d/1Me8ic1AidbtBzQ2K1n-lH2GnsyM14Oun/view?usp=sharing" target="_blank" class="see-more-btn">See More</a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img">
+                <img src="Greenhouse.jpg" alt="Automated Temperature Control Room">
+            </div>
+            <h4>Globally Controlled Automated Temperature Control Room</h4>
+            <p>Developed an automated room temperature control system targeting for a green house. The system enables real-time monitoring and global automatic control to a set point through IoT connectivity, integrating sensors,control algorithms(PID), and a remote user interface for efficient thermal management.</p>
+            <a href="https://drive.google.com/file/d/1yyxTE9z9cJAATI0UNEpRbqoa7vWCovcL/view?usp=sharing" target="_blank" class="see-more-btn">See More</a>
+        </div> 
+
+        <div class="project-card">
+            <div class="project-img">
+                <img src="mems.png" alt="MEMS Blood Plasma Separation">
+            </div>
+            <h4>MEMS-Based Blood Plasma Separation Using Dielectrophoresis</h4>
+            <p>Designed a microelectromechanical system (MEMS) for blood plasma separation utilizing dielectrophoretic forces. The project focuses on microchannel design, electrode configuration, material selection, and simulation of cell separation behavior for biomedical applications.</p>
+            <a href="https://uniofmora-my.sharepoint.com/:b:/g/personal/shehanmkj_21_uom_lk/IQC3hERAxxmASLJVkSvl0gAPAc90qsxNHuE6Dy4ceXesusU?e=tA8pp7" target="_blank" class="see-more-btn">See More</a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img">
+                <img src="teaser.png" alt="Depth Estimation Research Paper">
+            </div>
+            <h4>Replication of Depth Estimation Research Paper</h4>
+            <p>Replicated and validated a depth estimation research study by implementing the proposed methodology and algorithms. The project involves reproducing experimental results, analyzing model performance, and application in real world applications</p>
+            <a href="https://drive.google.com/file/d/1yQmxom14U6qc-6o3wlT3wQ_FTUz27zq8/view?usp=sharing" target="_blank" class="see-more-btn">See More</a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img">
+                <img src="autonomous.jpg" alt="Mobile Robot Localization Using UWB">
+            </div>
+            <h4>Indoor Mobile Robot Localization Using UWB Beacons in a Warehouse Environment</h4>
+            <p>Design and implement an Extended Kalman Filter in MATLAB to estimate the position and orientation of a mobile robot using only range-based measurements from fixed anchors. Performance evaluated through MATLAB simulations, trajectory analysis, and RMSE metrics.</p>
+            <a href="https://drive.google.com/file/d/1yQmxom14U6qc-6o3wlT3wQ_FTUz27zq8/view?usp=sharing" target="_blank" class="see-more-btn">See More</a>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img">
+                <img src="patient.png" alt="Autonomous Assistive Robot for Elderly">
+            </div>
+            <h4>Design and Development of an Autonomous Assistive Robot for Safe Transfer and Continuous Health Monitoring of Elderly Individuals with Sarcopenia(Ongoing)</h4>
+            <p>Designing an autonomous robot system focused on safe transfer assistance and continuous health monitoring for elderly individuals with sarcopenia. The project integrates mechanical design, control systems, and health monitoring sensors for comprehensive patient care.</p>
+            <a target="_blank" class="see-more-btn">See More</a>
         </div>
         
         
@@ -288,21 +317,37 @@ During my free time, I enjoy playing badminton and cricket, as well as building 
 <section id="work">
     <div class="timeline-container">
         <div class="timeline-section">
-            <h2>💼 Work</h2>
+            <h2>💼 Working Experience</h2>
 
             <div class="timeline-item">
                 <div class="timeline-content">
-                    <h3>Pillar Head - Corporate Development Pillar</h3>
-                    <p>MoraSpirit, University Sport Media Organization, Sri Lanka</p>
-                    <span class="date">March 2024 - Present</span>
+                    <h3>Chief Operational Officer</h3>
+                    <p>Falcon E Racing</p>
+                    <span class="date">2025 - Present</span>
                 </div>
             </div>
 
             <div class="timeline-item">
                 <div class="timeline-content">
-                    <h3>Research Assistant</h3>
+                    <h3>Chief Corporate Officer</h3>
+                    <p>Moraspirit</p>
+                    <span class="date">2025 - Present</span>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Research Intern</h3>
                     <p>National University of Singapore (NUS)</p>
-                    <span class="date">Dec 2024 - Present</span>
+                    <span class="date">2024 - 2025</span>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h3>Pillar Head - Corporate Development Pillar</h3>
+                    <p>MoraSpirit, University Sport Media Organization, Sri Lanka</p>
+                    <span class="date">March 2024 - April 2025</span>
                 </div>
             </div>
         </div>
@@ -349,10 +394,12 @@ During my free time, I enjoy playing badminton and cricket, as well as building 
                             <ul>
                                 <li>PCB Designing (Altium)</li>
                                 <li>3D Designing (SolidWorks, AutoCAD, Solid Edge)</li>
+                                <li>Robot Operating System (ROS)</li>
                                 <li>MATLAB</li>
                                 <li>FluidSim</li>
                                 <li>COMSOL Multiphysics</li>
                                 <li>Ansys</li>
+                                <li>Gazebo</li>
                             </ul>
                         </div>
                     </div>
@@ -520,7 +567,7 @@ During my free time, I enjoy playing badminton and cricket, as well as building 
                     <i class="uil uil-github-alt"></i>
                 </a>
             </div>
-            <p class="footer__copy">&copy; 2024 Janidu Shehan.</p> 
+            <p class="footer__copy">&copy; 2025 Janidu Shehan.</p> 
             <p class="footer__copy"></p>All rights reserved.</p>
         </div>
     </footer>
