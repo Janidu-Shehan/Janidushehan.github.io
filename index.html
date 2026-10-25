@@ -3,575 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Janidu Shehan's Portfolio</title>
-    
+    <title>Janidu Shehan | PhD Candidate, Human–Robot Interaction</title>
+    <meta name="description" content="Janidu Shehan is a PhD candidate in Human–Robot Interaction at Singapore Management University.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/main.js"></script>
 </head>
 <body>
     <!--==================== HEADER ====================-->
-    <header class="header" id="header">
-        <div class="nav__name">Janidu Shehan</div>
-
-        <!-- Navigation Menu for Desktop -->
-        <nav class="nav__menu-desktop">
-            <ul class="nav__list">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <header class="site-header">
+        <nav class="nav container">
+            <a href="index.html" class="brand">Janidu Shehan<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
             </ul>
+            <div class="nav-actions">
+                <button class="icon-btn" data-theme-toggle aria-label="Toggle theme"><i class="uil uil-moon"></i></button>
+                <button class="icon-btn menu-btn" data-menu-toggle aria-label="Open menu" aria-expanded="false"><i class="uil uil-bars"></i></button>
+            </div>
         </nav>
     </header>
-    
-    
-    
-    
-    
-    <!--==================== MAIN ====================-->
-    <main class="main">
-        <!--==================== HOME ====================-->
-        <section class="home section" id="home" data-id="home">
-            <div class="home__container container grid">
-                <div class="home__content grid">
-                    <div class="home__data">
-                        <h1 class="home__title">Hi, I'm Janidu Shehan</h1>
-                        <h3 class="home__subtitle">Mechatronics Engineering Undergraduate</h3>
-                        <p class="home__description">I'm a passionate and enthusiastic mechatronic engineering student at the University of Moratuwa. I explore the intersection of mechanical, electrical, and software engineering to create innovative solutions.</p>
-                        <a href="#contact" class="button button--flex">
-                            Contact Me <i class="uil uil-message button__icon"></i>
-                        </a>
-                        
-                        <div class="home__social">
-                            <a href="https://www.linkedin.com/in/janidu-shehan-0a9076200?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BbNlo%2BpvkT2uYwaKYyNKErA%3D%3D" target="_blank" class="home__social-icon">
-                                <i class="uil uil-linkedin-alt"></i>
-                            </a>
-                            <a href="https://web.facebook.com/janidu.shehan/" target="_blank" class="home__social-icon">
-                                <i class="uil uil-facebook-f"></i>
-                            </a>
-                            <a href="https://github.com/Janidu-Shehan" target="_blank" class="home__social-icon">
-                                <i class="uil uil-github-alt"></i>
-                            </a>
-                        </div>
-                    </div>
 
-                    <div class="home__img">
-                        <img class="home__profile-img" src="Janidu.png" alt="Janidu Shehan">
+    <main>
+        <!--==================== HERO ====================-->
+        <section class="hero">
+            <div class="container hero-grid">
+                <div>
+                    <span class="eyebrow">PhD Candidate · Human–Robot Interaction</span>
+                    <h1>Hi, I'm Janidu Shehan</h1>
+                    <p class="role">PhD Candidate at <strong>Singapore Management University</strong></p>
+                    <p class="lede">I study how robots and people can work together safely and naturally. My background is in mechatronics engineering, so I like to work across the whole system: hardware, perception, control and the people who use it.</p>
+                    <div class="btn-row">
+                        <a href="research.html" class="btn btn-primary">View my research <i class="uil uil-arrow-right"></i></a>
+                        <a href="https://drive.google.com/file/d/1AfuHLkhXb1hMK69la9mtIvUap5GwYzg3/view?usp=sharing" target="_blank" rel="noopener" class="btn btn-ghost"><i class="uil uil-file-download-alt"></i> Download CV</a>
+                    </div>
+                    <div class="socials">
+                        <a href="https://www.linkedin.com/in/janidu-shehan-0a9076200" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="uil uil-linkedin-alt"></i></a>
+                        <a href="https://github.com/Janidu-Shehan" target="_blank" rel="noopener" aria-label="GitHub"><i class="uil uil-github-alt"></i></a>
+                        <a href="mailto:janidushehan09@gmail.com" aria-label="Email"><i class="uil uil-envelope"></i></a>
+                        <a href="https://web.facebook.com/janidu.shehan/" target="_blank" rel="noopener" aria-label="Facebook"><i class="uil uil-facebook-f"></i></a>
                     </div>
                 </div>
-
-                <div class="home__scroll">
-                    <a href="#about" class="home__scroll-button button--flex">
-                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                        <span class="home__scroll-name">Scroll Down</span>
-                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                    </a>
+                <div class="hero-photo">
+                    <img src="Janidu.png" alt="Portrait of Janidu Shehan">
                 </div>
             </div>
         </section>
 
-        <!--==================== ABOUT ====================-->
-        <section class="about section" id="about">
-            <div class="about__container container grid">
-                <div class="about__img">
-                    <img src="self.jpg" alt="Profile Picture">
+        <!--==================== RESEARCH INTERESTS ====================-->
+        <section class="section">
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">Focus</span>
+                    <h2>Research interests</h2>
                 </div>
-                <div class="about__data">
-                    <h2 class="about__title">About Me</h2>
-<p class="about__description">
-I am a fourth-year Mechanical Engineering undergraduate specializing in Mechatronics Engineering at the 
-<a href="https://uom.lk/" class="link">University of Moratuwa</a>. I am currently in my 8th semester and have a strong interest in Machine Learning, Robotics, autonomous systems, and microcontroller-based applications.<br><br>
-    
-I previously worked as a Research Assistant at the 
-<a href="https://nus.edu.sg/" class="link">National University of Singapore</a>, where I contributed to cutting-edge research on the development of a guided robotic dog for visually impaired individuals.<br><br>  
-
-In addition, I currently serve as the Chief Operations Officer of 
-<a href="https://falconeracing.lk/" class="link">Team Falcon E Racing</a>, where I apply mechanical engineering principles to real-world motorsport applications. I also previously served as the Chief Corporate Officer, gaining valuable experience in corporate operations and leadership. Furthermore, I am an active member of the 
-<a href="https://www.moraspirit.com/" class="link">IEEE Robotics and Automation Society</a> at the University of Moratuwa, as well as the 
-<a href="https://morahiking.com/" class="link">Mora Hiking Club</a>.<br><br>
-
-I have also completed an internship at 
-<a href="https://www.combank.lk/" class="link">Commercial Bank</a>, where I gained exposure to professional and organizational practices in the banking sector.<br><br>
-
-In my free time, I enjoy playing badminton and cricket, as well as working on small robotics and automation projects.
-</p>
-
-<a href="https://drive.google.com/file/d/1AfuHLkhXb1hMK69la9mtIvUap5GwYzg3/view?usp=sharing" class="download-btn">
-    Download CV <i class="uil uil-download-alt"></i>
-</a>
-                </div>
-            </div>
-        </section><!--==================== Project ====================-->
-<section class="project section" id="projects">
-    <div class="projects-container">
-      <h2>Robotics & Mechanical Engineering Projects</h2>
-      <p>Discover the innovative projects that showcase cutting-edge solutions and my passion for technology in robotics, automation, and beyond.</p>
-      <div class="projects-grid">
-        
-        <!-- First Row of Projects -->
-        <div class="project-card">
-          <div class="project-img">
-            <img src="Diyakawa.jpg" alt="Diyakawa">
-          </div>
-          <h4>Diyakawa Underwater Robot</h4>
-          <p>Diyakawa is an autonomous underwater vehicle (AUV) designed for the SAUVC competition. Equipped with advanced sensors and navigation systems.</p>
-          <a href="https://drive.google.com/file/d/1JPuo8tuUWJCCtixEEU5rSEVRnb4HnbSg/view?usp=drive_link" target="_blank" class="see-more-btn">See More</a>
-        </div>
-  
-        <div class="project-card">
-          <div class="project-img">
-            <img src="rain.jpg" alt="Rainfall Forecasting Platform">
-          </div>
-          <h4>Rainfall Forecasting Platform</h4>
-          <p>Rainfall forecasting platform using PyCharm which integrates the innovative Rainforest algorithm.</p>
-          <a href="https://drive.google.com/file/d/1yKgUcIMYJjT_TtgQOnW6aX3XB7PwKkC-/view?usp=drive_link" target="_blank" class="see-more-btn">See More</a>
-        </div>
-  
-        <div class="project-card">
-          <div class="project-img">
-            <img src="smart aquarium.jpg" alt="Smart Aquarium">
-          </div>
-          <h4>Smart Aquarium</h4>
-          <p>Designed a Smart Aquarium system ensuring a healthier environment for aquatic life with minimal maintenance by integrating Iot.</p>
-          <a href="https://drive.google.com/your_link" target="_blank" class="see-more-btn">See More</a>
-        </div>
-  
-        <div class="project-card">
-          <div class="project-img">
-            <img src="plant.jpg" alt="Plant Disease Detection System">
-          </div>
-          <h4>Plant Disease Detection System</h4>
-          <p>This system uses image processing to identify plant diseases from leaf images and inform farmers remedies for those.</p>
-          <a href="https://drive.google.com/file/d/1yKgUcIMYJjT_TtgQOnW6aX3XB7PwKkC-/view?usp=drive_link" target="_blank" class="see-more-btn">See More</a>
-        </div>
-        
-        <!-- Second Row of Projects -->
-        <div class="project-card">
-          <div class="project-img">
-            <img src="table.jpg" alt="Retractable Wood Table">
-          </div>
-          <h4>Portable Retractable Wood Table</h4>
-          <p>The Portable Retractable Wood Table is a versatile and compact piece of furniture designed for easy handling, usage,
-            transportation, and storage</p>
-          <a href="https://docs.google.com/presentation/d/191firjqHZA8aDeOVagi-dzm7ZOom0FAR/edit?usp=sharing&ouid=116233717061136752529&rtpof=true&sd=true" target="_blank" class="see-more-btn">See More</a>
-        </div>
-
-        <div class="project-card">
-            <div class="project-img">
-                <img src="download.webp" alt="Snake Robot">
-            </div>
-            <h4>Snake Robot</h4>
-            <p>The Snake Robot is a bio-inspired robotic system designed for enhanced maneuverability in confined spaces, with applications in search and rescue of victims in collapsed building environments.</p>
-            <a href="https://drive.google.com/drive/folders/112mvcP2iasCFU_wZ6E-MYtew_8sSMf0C?usp=drive_link" target="_blank" class="see-more-btn">See More</a>
-        </div>
-        
-
-        <div class="project-card">
-            <div class="project-img">
-                <img src="coconut.jpg" alt="Coconut Mill">
-            </div>
-            <h4>Optimizing Production Line</h4>
-            <p>Developed and implemented process improvements in the production line of a coconut mill, focusing on enhancing efficiency, reducing waste, and increasing overall productivity.</p>
-            <a href="https://drive.google.com/file/d/15gvzbxELsHIS7APAZWAWMrhJKzcW1u-b/view?usp=sharing" target="_blank" class="see-more-btn">See More</a>
-        </div>
-
-        <div class="project-card">
-            <div class="project-img">
-                <img src="blind.jpg" alt="Guided Belt for Blind Person">
-            </div>
-            <h4>Guided Belt for Blind Person</h4>
-            <p>Designed and proposed a wearable guided belt equipped with sensors to assist blind individuals in navigating safely from one location to another by providing haptic feedback.</p>
-            <a href="https://drive.google.com/file/d/1Me8ic1AidbtBzQ2K1n-lH2GnsyM14Oun/view?usp=sharing" target="_blank" class="see-more-btn">See More</a>
-        </div>
-
-        <div class="project-card">
-            <div class="project-img">
-                <img src="Greenhouse.jpg" alt="Automated Temperature Control Room">
-            </div>
-            <h4>Globally Controlled Automated Temperature Control Room</h4>
-            <p>Developed an automated room temperature control system targeting for a green house. The system enables real-time monitoring and global automatic control to a set point through IoT connectivity, integrating sensors,control algorithms(PID), and a remote user interface for efficient thermal management.</p>
-            <a href="https://drive.google.com/file/d/1yyxTE9z9cJAATI0UNEpRbqoa7vWCovcL/view?usp=sharing" target="_blank" class="see-more-btn">See More</a>
-        </div> 
-
-        <div class="project-card">
-            <div class="project-img">
-                <img src="mems.png" alt="MEMS Blood Plasma Separation">
-            </div>
-            <h4>MEMS-Based Blood Plasma Separation Using Dielectrophoresis</h4>
-            <p>Designed a microelectromechanical system (MEMS) for blood plasma separation utilizing dielectrophoretic forces. The project focuses on microchannel design, electrode configuration, material selection, and simulation of cell separation behavior for biomedical applications.</p>
-            <a href="https://uniofmora-my.sharepoint.com/:b:/g/personal/shehanmkj_21_uom_lk/IQC3hERAxxmASLJVkSvl0gAPAc90qsxNHuE6Dy4ceXesusU?e=tA8pp7" target="_blank" class="see-more-btn">See More</a>
-        </div>
-
-        <div class="project-card">
-            <div class="project-img">
-                <img src="teaser.png" alt="Depth Estimation Research Paper">
-            </div>
-            <h4>Replication of Depth Estimation Research Paper</h4>
-            <p>Replicated and validated a depth estimation research study by implementing the proposed methodology and algorithms. The project involves reproducing experimental results, analyzing model performance, and application in real world applications</p>
-            <a href="https://drive.google.com/file/d/1yQmxom14U6qc-6o3wlT3wQ_FTUz27zq8/view?usp=sharing" target="_blank" class="see-more-btn">See More</a>
-        </div>
-
-        <div class="project-card">
-            <div class="project-img">
-                <img src="autonomous.jpg" alt="Mobile Robot Localization Using UWB">
-            </div>
-            <h4>Indoor Mobile Robot Localization Using UWB Beacons in a Warehouse Environment</h4>
-            <p>Design and implement an Extended Kalman Filter in MATLAB to estimate the position and orientation of a mobile robot using only range-based measurements from fixed anchors. Performance evaluated through MATLAB simulations, trajectory analysis, and RMSE metrics.</p>
-            <a href="https://drive.google.com/file/d/1yQmxom14U6qc-6o3wlT3wQ_FTUz27zq8/view?usp=sharing" target="_blank" class="see-more-btn">See More</a>
-        </div>
-
-        <div class="project-card">
-            <div class="project-img">
-                <img src="patient.png" alt="Autonomous Assistive Robot for Elderly">
-            </div>
-            <h4>Design and Development of an Autonomous Assistive Robot for Safe Transfer and Continuous Health Monitoring of Elderly Individuals with Sarcopenia(Ongoing)</h4>
-            <p>Designing an autonomous robot system focused on safe transfer assistance and continuous health monitoring for elderly individuals with sarcopenia. The project integrates mechanical design, control systems, and health monitoring sensors for comprehensive patient care.</p>
-            <a target="_blank" class="see-more-btn">See More</a>
-        </div>
-        
-        
-      </div>
-    </div>
-</section>
-
-
-<!--==================== Education ====================-->
-
-<!-- Education Section -->
-<section id="education">
-    <div class="timeline-container">
-        <div class="timeline-section">
-            <h2>🎓 Education</h2>
-
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>B.Sc. Engineering (Hons) in Mechanical Engineering</h3>
-                    <p>Specialized in Mechatronics Engineering</p>
-                    <p>University of Moratuwa, Moratuwa, Sri Lanka</p>
-                    <span class="date">March 2022 - Present</span>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>GCE Advanced Level - Physical Science Stream</h3>
-                    <p>Richmond College, Galle, Sri Lanka</p>
-                    <p>Z-Score: 2.614</p>
-                    <p>Combined Mathematics, Physics, Chemistry</p>
-                    <span class="date">April 2007 - Dec 2020</span>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>GCE Ordinary Level - English Medium; 9A’s</h3>
-                    <p>Richmond College, Galle, Sri Lanka</p>
-                    <p>Including English Literature, Business Studies and Accounting, ICT</p>
-                    <span class="date">April 2007 - Dec 2020</span>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>Diploma in English</h3>
-                    <p>Sangharama English School</p>
-                    <span class="date">Jan 2012 - Dec 2016</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Additional Certifications Section -->
-        <div class="timeline-section">
-            <h2>📚 Online Certifications & Courses</h2>
-
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <ul>
-                        <li>Supervised Machine Learning: Regression and Classification - Coursera</li>
-                        <li>AI for Everyone - Coursera</li>
-                        <li>Starting with Altium Designer - Coursera</li>
-                        <li>Python for Data Science, AI and Development - Coursera</li>
-                        <li>The Raspberry Pi Platform and Python Programming for the Raspberry Pi - Coursera</li>
-                        <li>Introduction to Generative AI - Coursera</li>
-                        <li>C++ Object Basics: Functions, Recursion, and Objects - Coursera</li>
-                        <li>Starting With Altium Designer - Udemy</li>
-                        <li>MATLAB Onramp - Coursera</li>
-                        <li>Introduction to Internet of Things and Embedded Systems - Coursera</li>
-                        <li>Deep Learning with PyTorch: Siamese Network - Coursera</li>
-                        <li>How Diffusion Models Work - Coursera</li>
-                        <li>Deep Learning with PyTorch: Generative Adversarial Network - Coursera</li>
-                        <li>Aerial Robotics - Coursera</li>
-                        <li>Introduction to Self Driving Cars - Coursera</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Work Section -->
-<section id="work">
-    <div class="timeline-container">
-        <div class="timeline-section">
-            <h2>💼 Working Experience</h2>
-
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>Chief Operational Officer</h3>
-                    <p>Falcon E Racing</p>
-                    <span class="date">2025 - Present</span>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>Chief Corporate Officer</h3>
-                    <p>Moraspirit</p>
-                    <span class="date">2025 - Present</span>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>Research Intern</h3>
-                    <p>National University of Singapore (NUS)</p>
-                    <span class="date">2024 - 2025</span>
-                </div>
-            </div>
-
-            <div class="timeline-item">
-                <div class="timeline-content">
-                    <h3>Pillar Head - Corporate Development Pillar</h3>
-                    <p>MoraSpirit, University Sport Media Organization, Sri Lanka</p>
-                    <span class="date">March 2024 - April 2025</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-        <!--==================== Skills section ====================-->
-        <section class="skills-section" id="skills">
-            <div class="skills-container">
-                <h2>Skills</h2>
-                <div class="skills-grid">
-        
-                    <!-- Languages Section -->
-                    <div class="skills-category">
-                        <input type="checkbox" id="languages" class="toggle">
-                        <label for="languages" class="skills-toggle">🧑‍💻 Languages <span>&#9662;</span></label>
-                        <div class="skills-content">
-                            <ul>
-                                <li>English (Professional Proficiency)</li>
-                                <li>Sinhala (Native Proficiency)</li>
-                            </ul>
-                        </div>
+                <div class="grid-3">
+                    <div class="card">
+                        <div class="card-icon"><i class="uil uil-users-alt"></i></div>
+                        <h3>Human–Robot Interaction</h3>
+                        <p>How people perceive, trust and work alongside robots in everyday and assistive settings.</p>
                     </div>
-        
-                    <!-- Computer Languages Section -->
-                    <div class="skills-category">
-                        <input type="checkbox" id="computer-languages" class="toggle">
-                        <label for="computer-languages" class="skills-toggle">💻 Computer Languages <span>&#9662;</span></label>
-                        <div class="skills-content">
-                            <ul>
-                                <li>Python</li>
-                                <li>C</li>
-                                <li>C++</li>
-                            </ul>
-                        </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="uil uil-heart-medical"></i></div>
+                        <h3>Assistive Robotics</h3>
+                        <p>Robots that support older adults and people with visual impairments, such as robotic guide dogs and transfer-assist systems.</p>
                     </div>
-        
-                    <!-- Design & Simulation Software -->
-                    <div class="skills-category">
-                        <input type="checkbox" id="design-simulation" class="toggle">
-                        <label for="design-simulation" class="skills-toggle">🔧 Design & Simulation Software <span>&#9662;</span></label>
-                        <div class="skills-content">
-                            <ul>
-                                <li>PCB Designing (Altium)</li>
-                                <li>3D Designing (SolidWorks, AutoCAD, Solid Edge)</li>
-                                <li>Robot Operating System (ROS)</li>
-                                <li>MATLAB</li>
-                                <li>FluidSim</li>
-                                <li>COMSOL Multiphysics</li>
-                                <li>Ansys</li>
-                                <li>Gazebo</li>
-                            </ul>
-                        </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="uil uil-robot"></i></div>
+                        <h3>Autonomous Systems</h3>
+                        <p>Perception, localization and control for mobile and underwater robots, built on machine learning.</p>
                     </div>
-
-                    <!-- Productivity & Media Tools -->
-                    <div class="skills-category">
-                        <input type="checkbox" id="productivity-media" class="toggle">
-                        <label for="productivity-media" class="skills-toggle">🛠️ Productivity & Media Tools <span>&#9662;</span></label>
-                        <div class="skills-content">
-                            <ul>
-                                <li>MS Office</li>
-                                <li>Trello</li>
-                                <li>Social Media Management</li>
-                                <li>Video Editing (Premier Pro, Canva)</li>
-                            </ul>
-                        </div>
-                    </div>
-
-        
-                    <!-- Frameworks & Embedded Systems Section -->
-                    <div class="skills-category">
-                        <input type="checkbox" id="frameworks" class="toggle">
-                        <label for="frameworks" class="skills-toggle">⚙️ Frameworks & Embedded Systems <span>&#9662;</span></label>
-                        <div class="skills-content">
-                            <ul>
-                                <li>PyTorch</li>
-                                <li>OpenCV</li>
-                                <li>TensorFlow</li>
-                                <li>Raspberry Pi</li>
-                                <li>Arduino  Node MCU</li>
-                                <li>Jetson Nano</li>
-                            </ul>
-                        </div>
-                    </div>
-        
-                    <!-- Soft Skills Section -->
-                    <div class="skills-category">
-                        <input type="checkbox" id="soft-skills" class="toggle">
-                        <label for="soft-skills" class="skills-toggle">📈 Soft Skills <span>&#9662;</span></label>
-                        <div class="skills-content">
-                            <ul>
-                                <li>Time Management</li>
-                                <li>Communication</li>
-                                <li>Leadership, Time Management</li>
-                                <li>Fast Learning</li>
-                                <li>Teamwork</li>
-                                <li>People Management</li>
-                            </ul>
-                        </div>
-                    </div>
-        
-                    <!-- Sports Section -->
-                    <div class="skills-category">
-                        <input type="checkbox" id="sports" class="toggle">
-                        <label for="sports" class="skills-toggle">🏅 Sports <span>&#9662;</span></label>
-                        <div class="skills-content">
-                            <ul>
-                                <li>Badminton</li>
-                                <li>Swimming</li>
-                                <li>Hockey</li>
-                                <li>Cricket</li>
-                            </ul>
-                        </div>
-                    </div>
-        
                 </div>
             </div>
         </section>
-        
-        <!--==================== Achievements====================-->
-        <section class="awards-section" id="awards">
-            <h2 class="section-title">Awards & Scholarships</h2>
-            <div class="awards-timeline">
-                <div class="award-card">
-                    <h3>Mahapola Higher Education (Merit) Scholarship</h3>
-                    <p>August 2022</p>
-                    <p>For outstanding performance in GCE A/L Examination (All Island Rank 96).</p>
+
+        <!--==================== NEWS ====================-->
+        <section class="section">
+            <div class="container split">
+                <h2>Latest news</h2>
+                <ul class="news">
+                    <li>
+                        <time>Sep 2026</time>
+                        <span>Finished my roles as Chief Operating Officer and Vehicle Dynamics Engineer at <a href="https://falconeracing.lk/" target="_blank" rel="noopener">Team Falcon E Racing</a>.</span>
+                    </li>
+                    <li>
+                        <time>2026</time>
+                        <span>Started my PhD in Human–Robot Interaction at <a href="https://www.smu.edu.sg/" target="_blank" rel="noopener">Singapore Management University</a>.</span>
+                    </li>
+                    <li>
+                        <time>Jul 2026</time>
+                        <span>Graduated with a B.Sc. Engineering (Hons) in Mechanical Engineering, specializing in Mechatronics, from the University of Moratuwa.</span>
+                    </li>
+                    <li>
+                        <time>2024</time>
+                        <span>Team Diyakawa placed 11th overall out of 86+ teams at the Singapore Autonomous Underwater Vehicle Challenge (SAUVC).</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--==================== FEATURED PROJECTS ====================-->
+        <section class="section">
+            <div class="container">
+                <div class="section-head">
+                    <span class="eyebrow">Selected work</span>
+                    <h2>Featured projects</h2>
                 </div>
-                <div class="award-card">
-                    <h3>11th Place in Singapore Autonomous Underwater Robot Competition</h3>
-                    <p>2024</p>
-                    <p>Team Diyakawa secured the Overall 11th place from 86+ competitors worldwide.</p>
+                <div class="grid-3">
+                    <article class="card project">
+                        <div class="project-media"><img src="patient.png" alt="Assistive robot for elderly care" loading="lazy"></div>
+                        <div class="project-body">
+                            <div class="tags"><span class="tag accent">Assistive</span><span class="tag">HRI</span></div>
+                            <h3>Assistive Robot for Elderly Individuals with Sarcopenia</h3>
+                            <p>An autonomous robot for safe transfer assistance and continuous health monitoring.</p>
+                        </div>
+                    </article>
+                    <article class="card project">
+                        <div class="project-media"><img src="Diyakawa.jpg" alt="Diyakawa underwater robot" loading="lazy"></div>
+                        <div class="project-body">
+                            <div class="tags"><span class="tag accent">Robotics</span><span class="tag">Autonomy</span></div>
+                            <h3>Diyakawa Underwater Robot</h3>
+                            <p>An autonomous underwater vehicle built for SAUVC. It placed 11th out of 86+ teams worldwide.</p>
+                            <a class="project-link" href="https://drive.google.com/file/d/1JPuo8tuUWJCCtixEEU5rSEVRnb4HnbSg/view?usp=drive_link" target="_blank" rel="noopener">See more →</a>
+                        </div>
+                    </article>
+                    <article class="card project">
+                        <div class="project-media"><img src="blind.jpg" alt="Guided belt for blind people" loading="lazy"></div>
+                        <div class="project-body">
+                            <div class="tags"><span class="tag accent">Assistive</span><span class="tag">Wearable</span></div>
+                            <h3>Guided Belt for Blind People</h3>
+                            <p>A wearable belt with sensors that guides blind people safely using haptic feedback.</p>
+                            <a class="project-link" href="https://drive.google.com/file/d/1Me8ic1AidbtBzQ2K1n-lH2GnsyM14Oun/view?usp=sharing" target="_blank" rel="noopener">See more →</a>
+                        </div>
+                    </article>
                 </div>
-                <div class="award-card">
-                    <h3>Selected for Top Entries | Build2Gether 2.0</h3>
-                    <p>2024</p>
-                    <p>Build2Gether 2.0 is an innovation challenge spotlighting the transformative role of assistive technologies for people with disabilities.</p>
+                <p style="margin-top: 28px;"><a href="projects.html" class="btn btn-ghost">All projects <i class="uil uil-arrow-right"></i></a></p>
+            </div>
+        </section>
+
+        <!--==================== CTA ====================-->
+        <section class="section">
+            <div class="container">
+                <div class="cta">
+                    <div>
+                        <h2>Let's collaborate</h2>
+                        <p>I'm open to research collaborations, talks and conversations about HRI.</p>
+                    </div>
+                    <a href="about.html#contact" class="btn btn-primary">Get in touch <i class="uil uil-message"></i></a>
                 </div>
             </div>
         </section>
-        
-        <!--==================== CONTACT ====================-->
-        <section class="contact section" id="contact">
-            <div class="contact__container container grid">
-                <div class="contact__data">
-                    <h2 class="contact__title">Contact Me</h2>
-                    <p class="contact__description">Feel free to reach out to me for any inquiries.</p>
-                    
-                    <div class="contact-info">
-                        <div class="contact-details">
-                            <i class="uil uil-envelope"></i>
-                            <p><strong>Email</strong><br>janidushehan09@gmail.com</a></p>
-                        </div>
-                        
-                        <div class="contact-details">
-                            <i class="uil uil-whatsapp"></i>
-                            <p><a href="https://wa.me/+94773689283" target="_blank"><strong>WhatsApp</strong></a><br>+94773689283</p>
-                        </div>
-                        <div class="contact-details">
-                            <i class="uil uil-phone"></i>
-                            <p><strong>Call Me</strong><br>+94773689283</p>
-                        </div>
-                    </div>
-        <!--
-                    <form onsubmit="sendEmail(); this.reset(); return false;" class="contact__form grid">
-                        <input type="text" id="name" class="contact__input" placeholder="Enter Your Full Name" required>
-                        <input type="email" id="email" class="contact__input" placeholder="Enter your Email Address" required>
-                        <textarea id="message" class="contact__textarea" placeholder="Enter your Message" required></textarea>
-                        <button type="submit" class="button contact__button">Send Message <i class="uil uil-message button__icon"></i></button>
-                    </form>
-                    
-                    <script src="https://smtpjs.com/v3/smtp.js"></script>
-                    <script>
-                        function sendEmail() {
-                            var name = document.getElementById("name").value;
-                            var email = document.getElementById("email").value;
-                            var message = document.getElementById("message").value;
-                            
-                            Email.send({
-                                Host: "smtp.elasticemail.com",
-                                Username: "janidushehan09@gmail.com",
-                                Password: "8A9F898DFDA6D5A13687E9E1BEDB3C69B179",
-                                To: 'janidushehan09@gmail.com',
-                                From: email,
-                                Subject: "New Contact Form Enquiry from " + name,
-                                Body: "Name: " + name + "<br>Email: " + email + "<br>Message: " + message
-                            }).then(
-                                message => alert("Message sent successfully!")
-                            ).catch(
-                                error => alert("Failed to send message: " + error)
-                            );
-                        }
-                    </script>
-                    -->
-                    
-        </section>
-        </main>
-        
     </main>
 
     <!--==================== FOOTER ====================-->
-    <footer class="footer">
-        <div class="footer__container container">
-            <h3 class="footer__title1">Janidu Shehan</h3>
-            <h1 class="footer__title2" style="font-size: smaller;">Engineering Undergraduate</h1>
-
-            <div class="footer__social">
-                <a href="https://www.linkedin.com/in/janidu-shehan-0a9076200?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BbNlo%2BpvkT2uYwaKYyNKErA%3D%3D" target="_blank" class="home__social-icon">
-                    <i class="uil uil-linkedin-alt"></i>
-                </a>
-                <a href="https://web.facebook.com/janidu.shehan/" target="_blank" class="home__social-icon">
-                    <i class="uil uil-facebook-f"></i>
-                </a>
-                <a href="https://github.com/Janidu-Shehan" target="_blank" class="home__social-icon">
-                    <i class="uil uil-github-alt"></i>
-                </a>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <span>&copy; <span id="year">2026</span> Janidu Shehan · PhD Candidate, Singapore Management University</span>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/janidu-shehan-0a9076200" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="uil uil-linkedin-alt"></i></a>
+                <a href="https://github.com/Janidu-Shehan" target="_blank" rel="noopener" aria-label="GitHub"><i class="uil uil-github-alt"></i></a>
+                <a href="mailto:janidushehan09@gmail.com" aria-label="Email"><i class="uil uil-envelope"></i></a>
             </div>
-            <p class="footer__copy">&copy; 2025 Janidu Shehan.</p> 
-            <p class="footer__copy"></p>All rights reserved.</p>
         </div>
     </footer>
-
-    <script src="app.js"></script>
 </body>
 </html>
